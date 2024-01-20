@@ -51,9 +51,8 @@ Polikistik over sendromu  kadınlarda en sık görülen hormonal bozuklukların 
  43  |Endometrium (mm) | Rahim kalınlığı         
  44  |Unnamed: 44 | İsimsiz sütun
 
-
-
  I beta HCG : https://americanpregnancy.org/getting-pregnant/hcg-levels/#:~:text=An%20hCG%20level%20of%20less,rise%20to%20confirm%20a%20pregnancy.
+
 
 
 # Detection of Patients with Polycystic Ovary Syndrome (PCOS)
