@@ -2,6 +2,11 @@
 Polikistik over sendromu  kadınlarda en sık görülen hormonal bozuklukların başında yer almaktadır.
 
 
+* **Analysis.ipynb**: Yapılan analizleri ve veri görselleştirmeleri içerir.
+> ### Öncesi-Sonrası karşılaştırması yapabilmek için iki notebook oluşturulmuştur.
+* **base_models.ipynb**: Temel işlemlerden(eksik veri, outlier, veri tipi dönüşümü) sonra temel modelleri ve sonuçlarını içerir.
+* **tuned_models.ipynb**: Gereksiz feature çıkarma, scaler işlemleri uygulanan ve hiperparametre ince ayarı yapılan modelleri ve sonuçlarını içerir.
+
  |**ÖZELLİK NO**|**ÖZELLİK**|**AÇIKLAMA**|
  |---|---|---|
  0   |Sl. No | Seri Numarası  
@@ -21,7 +26,7 @@ Polikistik over sendromu  kadınlarda en sık görülen hormonal bozuklukların 
  14  |Pregnant(Y/N) | Hamile olup olmadığı            
  15  |No. of abortions | Kürtaj sayısı         
  16  |I beta-HCG(mIU/mL) | Beta-HCG seviyesi  
- 17  |II beta-HCG(mIU/mL) | 
+ 17  |II beta-HCG(mIU/mL) | -  
  18  |FSH(mIU/mL) | FSH seviyesi              
  19  |LH(mIU/mL) | LH seviyesi               
  20  |FSH/LH | FSH/LH oranı                   
