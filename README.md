@@ -2,10 +2,10 @@
 Polikistik over sendromu  kadınlarda en sık görülen hormonal bozuklukların başında yer almaktadır.
 
 
-* **Analysis.ipynb**: Yapılan analizleri ve veri görselleştirmeleri içerir.
+* [Analizler](analysis.ipynb): Yapılan analizleri ve veri görselleştirmeleri içerir.
 > ### Öncesi-Sonrası karşılaştırması yapabilmek için iki notebook oluşturulmuştur.
-* **base_models.ipynb**: Temel işlemlerden(eksik veri, outlier, veri tipi dönüşümü) sonra temel modelleri ve sonuçlarını içerir.
-* **tuned_models.ipynb**: Gereksiz feature çıkarma, scaler işlemleri uygulanan ve hiperparametre ince ayarı yapılan modelleri ve sonuçlarını içerir.
+* [Temel modeller](base_models.ipynb): Temel işlemlerden(eksik veri, outlier, veri tipi dönüşümü) sonra temel modelleri ve sonuçlarını içerir.
+* [Ayarlanmış modeller](tuned_models.ipynb): Gereksiz feature çıkarma, scaler işlemleri uygulanan ve hiperparametre ince ayarı yapılan modelleri ve sonuçlarını içerir.
 
  |**ÖZELLİK NO**|**ÖZELLİK**|**AÇIKLAMA**|
  |---|---|---|
