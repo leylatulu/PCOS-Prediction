@@ -27,7 +27,7 @@ PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. Ancak bazı semptomlar 
 
 > !! PCOS'un nedeni bilinmemektedir ancak aile öyküsü veya tip 2 diyabeti olan kadınlar daha yüksek risk altındadır.
 
-![Alt text](image.png)
+![Alt text](analysis-images/pcos_nonpcos.png)
 
 
 
@@ -111,12 +111,14 @@ PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. Ancak bazı semptomlar 
 ![Alt text](analysis-images/image-7.png)
 
 ## Sonuçlar
+Random Forest modeli için en iyi parametreler:
 
-![Alt text](image-5.png)
-![Alt text](image-4.png)
 
-![Alt text](image-3.png)
+![Alt text](analysis-images/comp_table.png)
+![Alt text](analysis-images/comparison.png)
 
-![Alt text](image-2.png)
+![Alt text](analysis-images/bestparams.png)
+![Alt text](analysis-images/confusionmatrix.png)
 
-![Alt text](image-1.png)
+![Alt text](analysis-images/roc.png)
+![Alt text](analysis-images/featureimportance.png)
