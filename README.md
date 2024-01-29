@@ -1,11 +1,37 @@
 # Polikistik Over Sendromu Tahmini (PCOS)
-Polikistik over sendromu  kadınlarda en sık görülen hormonal bozuklukların başında yer almaktadır.
+Polikistik over sendromu,  kadınlarda en sık görülen hormonal bozuklukların başında yer almaktadır. PCOS, üreme çağındaki kadınların tahmini olarak %8-13'ünü etkilemektedir. Dünya çapında etkilenen kadınların %70'e kadarı teşhis edilememektedir. Anovülasyonun ve kısırlığın önde gelen nedenidir.
+
+Polikistik over sendromunun belirtileri kişiden kişiye farklılık gösterebilir. Görülen semptomlar zamanla değişebilir.
+
+Görülebilecek olası semptomlar:
+```
+- Düzensiz menstrüal döngü dönemler
+- Kısırlık
+- Sivilce veya yağlı cilt
+- Yüzde veya vücutta aşırı kıllanma
+- Saç dökülmesi veya saç incelmesi
+- Özellikle göbek çevresinde kilo alımı
+```
+
+PCOS'lu kişilerin aşağıdakiler de dahil olmak üzere başka sağlık sorunlarına sahip olma olasılığı daha yüksektir:
+```
+- Tip 2 diyabet
+- Hipertansiyon 
+- Yüksek kolesterol
+- Kalp hastalığı
+- Endometrial kanser 
+```
+PKOS ayrıca kaygıya, depresyona ve anksiyete gibi psikolojik sorunlara da neden olabilmektedir. 
+
+PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. Ancak bazı semptomlar yaşam tarzı değişiklikleri, ilaçlar ve doğurganlık tedavileri yoluyla iyileştirilebilir.  
+
+> !! PCOS'un nedeni bilinmemektedir ancak aile öyküsü veya tip 2 diyabeti olan kadınlar daha yüksek risk altındadır.
+
+![Alt text](image.png)
 
 
-* [Analizler](analysis.ipynb): Yapılan analizleri ve veri görselleştirmeleri içerir.
-> ### Öncesi-Sonrası karşılaştırması yapabilmek için iki notebook oluşturulmuştur.
-* [Temel modeller](base_models.ipynb): Temel işlemlerden(eksik veri, outlier, veri tipi dönüşümü) sonra temel modelleri ve sonuçlarını içerir.
-* [Ayarlanmış modeller](tuned_models.ipynb): Gereksiz feature çıkarma, scaler işlemleri uygulanan ve hiperparametre ince ayarı yapılan modelleri ve sonuçlarını içerir.
+
+<br/>
 
  |**ÖZELLİK NO**|**ÖZELLİK**|**AÇIKLAMA**|
  |---|---|---|
@@ -55,6 +81,19 @@ Polikistik over sendromu  kadınlarda en sık görülen hormonal bozuklukların 
  43  |Endometrium (mm) | Rahim kalınlığı         
  44  |Unnamed: 44 | İsimsiz sütun
 
+<br/>
+
+---
+* [Analizler](analysis.ipynb): Yapılan analizleri ve veri görselleştirmeleri içerir.
+<br/>
+
+> Öncesi-Sonrası karşılaştırması yapabilmek için iki notebook oluşturulmuştur.
+* [Temel modeller](base_models.ipynb): Temel işlemlerden (eksik veri, outlier, veri tipi dönüşümü) sonra temel modelleri ve sonuçlarını içerir.
+* [Ayarlanmış modeller](tuned_models.ipynb): Gereksiz feature çıkarma, scaler işlemleri uygulanan ve hiperparametre ince ayarı yapılan modelleri ve sonuçlarını içerir.
+---
+
+
+## Görselleştirmeler
 
  
 ![Alt text](analysis-images/image-1.png)    ![Alt text](analysis-images/image.png) 
@@ -70,3 +109,14 @@ Polikistik over sendromu  kadınlarda en sık görülen hormonal bozuklukların 
 ![Alt text](analysis-images/image-5.png)
 
 ![Alt text](analysis-images/image-7.png)
+
+## Sonuçlar
+
+![Alt text](image-5.png)
+![Alt text](image-4.png)
+
+![Alt text](image-3.png)
+
+![Alt text](image-2.png)
+
+![Alt text](image-1.png)
