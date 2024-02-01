@@ -3,14 +3,14 @@
 
 
 ## İçindekiler
-- [Polikistik Over Sendromu Nedir?](#Polikistik-Over-Sendromu-Nedir?)
+- [Polikistik Over Sendromu](#Polikistik-Over-Sendromu)
 - [Veri Seti](#Veri-Seti)
 - [Dosyalar](#Dosyalar)
 - [Görselleştirmeler](#Görselleştirmeler)
 - [Sonuçlar](#Sonuçlar)
 
 
-## Polikistik Over Sendromu Nedir?
+## Polikistik Over Sendromu
 Polikistik over sendromu,  kadınlarda en sık görülen hormonal bozuklukların başında yer almaktadır. PCOS, üreme çağındaki kadınların tahmini olarak %8-13'ünü etkilemektedir. Dünya çapında etkilenen kadınların %70'e kadarı teşhis edilememektedir. Anovülasyonun ve kısırlığın önde gelen nedenidir.
 
 Polikistik over sendromunun belirtileri kişiden kişiye farklılık gösterebilir. Görülen semptomlar zamanla değişebilir.
