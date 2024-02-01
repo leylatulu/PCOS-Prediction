@@ -1,11 +1,5 @@
 # Polikistik Over Sendromu Tahmini (PCOS)
-Bu çalışma için kullanılan açık kaynaklı Polikistik Over Sendromu verileri Kaggle’dan alındı.​
 
-Veri Seti : [PCOS Dataset]​(https://www.kaggle.com/datasets/shreyasvedpathak/pcos-dataset)
-* 541 satır​
-* 45 sütun​
-
-Veri setindeki her satır bir hastayı temsil eder, her sütun ise hastalara ait özelliklerini içerir.
 
 ## İçindekiler
 
@@ -54,8 +48,13 @@ Ancak bazı semptomlar yaşam tarzı değişiklikleri, ilaçlar ve doğurganlık
 ![Alt text](analysis-images/pcos_nonpcos.png)
 
 ## Veri Seti
+Bu çalışma için kullanılan açık kaynaklı Polikistik Over Sendromu verileri Kaggle’dan alındı.​
 
+Veri Seti : 
+* 541 satır​
+* 45 sütun​
 
+Veri setindeki her satır bir hastayı temsil eder, her sütun ise hastalara ait özelliklerini içerir.
 <br/>
 
 ## Veri seti açıklamaları
@@ -108,9 +107,6 @@ Ancak bazı semptomlar yaşam tarzı değişiklikleri, ilaçlar ve doğurganlık
  43  |Endometrium (mm) | Rahim kalınlığı         
  44  |Unnamed: 44 | İsimsiz sütun
 
-<br/>
-
----
 ## Dosyalar
 * [Analizler](analysis.ipynb): Yapılan analizleri ve veri görselleştirmeleri içerir.
 <br/>
@@ -118,8 +114,6 @@ Ancak bazı semptomlar yaşam tarzı değişiklikleri, ilaçlar ve doğurganlık
 > Öncesi-Sonrası karşılaştırması yapabilmek için iki notebook oluşturulmuştur.
 * [Temel modeller](base_models.ipynb): Temel işlemlerden (eksik veri, outlier, veri tipi dönüşümü) sonra temel modelleri ve sonuçlarını içerir.
 * [Ayarlanmış modeller](tuned_models.ipynb): Gereksiz feature çıkarma, scaler işlemleri uygulanan ve hiperparametre ince ayarı yapılan modelleri ve sonuçlarını içerir.
----
-
 
 ## Görselleştirmeler
 ![Alt text](analysis-images/image-1.png)  ![Alt text](analysis-images/image.png) 
