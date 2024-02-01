@@ -46,11 +46,11 @@ Ayrıca ultrason görüntüsü her zaman net olmayabilir ve PKOS'lu bazı kadın
 
 > !! PCOS'un nedeni bilinmemektedir ancak aile öyküsü veya tip 2 diyabeti olan kadınlar daha yüksek risk altındadır.
 
-PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. 
+PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. Ancak bazı semptomlar yaşam tarzı değişiklikleri, ilaçlar ve doğurganlık tedavileri yoluyla iyileştirilebilir. 
+
 Sağlıklı bir diyet uygulamak ve yeterli egzersiz yapmak, kilo vermeye ve Tip 2 diyabet riskinin azalmasına yardımcı olabilir. 
 Doğum kontrol ilaçları (doğum kontrol hapı) adet döngüsünü düzenlemeye ve semptomları azaltmaya yardımcı olabilir.
-Ancak bazı semptomlar yaşam tarzı değişiklikleri, ilaçlar ve doğurganlık tedavileri yoluyla iyileştirilebilir.  
-
+ 
 ![Alt text](analysis-images/pcos_nonpcos.png)
 
 ## Veri Seti
