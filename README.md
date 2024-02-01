@@ -1,10 +1,16 @@
 # Polikistik Over Sendromu Tahmini (PCOS)
 
 
+
 ## İçindekiler
+- [Polikistik Over Sendromu](#Polikistik-Over-Sendromu)
+- [Veri Seti](#Veri-Seti)
+- [Dosyalar](#Dosyalar)
+- [Görselleştirmeler](#Görselleştirmeler)
+- [Sonuçlar](#Sonuçlar)
 
 
-## Polikistik Over Sendromu Nedir?
+## Polikistik Over Sendromu
 Polikistik over sendromu,  kadınlarda en sık görülen hormonal bozuklukların başında yer almaktadır. PCOS, üreme çağındaki kadınların tahmini olarak %8-13'ünü etkilemektedir. Dünya çapında etkilenen kadınların %70'e kadarı teşhis edilememektedir. Anovülasyonun ve kısırlığın önde gelen nedenidir.
 
 Polikistik over sendromunun belirtileri kişiden kişiye farklılık gösterebilir. Görülen semptomlar zamanla değişebilir.
@@ -50,14 +56,12 @@ Ancak bazı semptomlar yaşam tarzı değişiklikleri, ilaçlar ve doğurganlık
 ## Veri Seti
 Bu çalışma için kullanılan açık kaynaklı Polikistik Over Sendromu verileri Kaggle’dan alındı.​
 
-Veri Seti : 
+Veri Seti: [PCOS Dataset](https://www.kaggle.com/datasets/shreyasvedpathak/pcos-dataset)
 * 541 satır​
 * 45 sütun​
 
 Veri setindeki her satır bir hastayı temsil eder, her sütun ise hastalara ait özelliklerini içerir.
 <br/>
-
-## Veri seti açıklamaları
 
  |**ÖZELLİK NO**|**ÖZELLİK**|**AÇIKLAMA**|
  |---|---|---|
