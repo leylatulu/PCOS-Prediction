@@ -1,4 +1,9 @@
 # Polikistik Over Sendromu Tahmini (PCOS)
+
+## İçindekiler
+
+
+## Polikistik Over Sendromu Nedir?
 Polikistik over sendromu,  kadınlarda en sık görülen hormonal bozuklukların başında yer almaktadır. PCOS, üreme çağındaki kadınların tahmini olarak %8-13'ünü etkilemektedir. Dünya çapında etkilenen kadınların %70'e kadarı teşhis edilememektedir. Anovülasyonun ve kısırlığın önde gelen nedenidir.
 
 Polikistik over sendromunun belirtileri kişiden kişiye farklılık gösterebilir. Görülen semptomlar zamanla değişebilir.
@@ -29,9 +34,12 @@ PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. Ancak bazı semptomlar 
 
 ![Alt text](analysis-images/pcos_nonpcos.png)
 
+## Veri Seti
 
 
 <br/>
+
+## Veri seti açıklamaları
 
  |**ÖZELLİK NO**|**ÖZELLİK**|**AÇIKLAMA**|
  |---|---|---|
@@ -84,6 +92,7 @@ PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. Ancak bazı semptomlar 
 <br/>
 
 ---
+## Dosyalar
 * [Analizler](analysis.ipynb): Yapılan analizleri ve veri görselleştirmeleri içerir.
 <br/>
 
@@ -94,9 +103,7 @@ PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. Ancak bazı semptomlar 
 
 
 ## Görselleştirmeler
-
- 
-![Alt text](analysis-images/image-1.png)    ![Alt text](analysis-images/image.png) 
+![Alt text](analysis-images/image-1.png)  ![Alt text](analysis-images/image.png) 
 
 ![Alt text](analysis-images/image-2.png)
 
@@ -111,14 +118,20 @@ PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. Ancak bazı semptomlar 
 ![Alt text](analysis-images/image-7.png)
 
 ## Sonuçlar
-Random Forest modeli için en iyi parametreler:
-
-
+    - Uygulanan tüm modellerin değerlendirme metriklerinin sonuçları
 ![Alt text](analysis-images/comp_table.png)
+
 ![Alt text](analysis-images/comparison.png)
 
+
+    - Random Forest modeli için en iyi parametreler:
 ![Alt text](analysis-images/bestparams.png)
+
+    - Random Forest karmaşıklık matrisi
 ![Alt text](analysis-images/confusionmatrix.png)
 
+    - Random Forest ROC-AUC grafiği
 ![Alt text](analysis-images/roc.png)
+
+    - Random Forest'a göre özelliklerin önem sıralaması 
 ![Alt text](analysis-images/featureimportance.png)
