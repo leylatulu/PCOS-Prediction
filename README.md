@@ -120,7 +120,7 @@ Veri setindeki her satır bir hastayı temsil eder, her sütun ise hastalara ait
 
 ![Alt text](analysis-images/image-2.png)
 
-![Alt text](analysis-images/image-3.png)
+![alt text](analysis-images/image-3.png)
 
 ![Alt text](analysis-images/image-6.png)
 
