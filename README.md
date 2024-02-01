@@ -1,4 +1,11 @@
 # Polikistik Over Sendromu Tahmini (PCOS)
+Bu çalışma için kullanılan açık kaynaklı Polikistik Over Sendromu verileri Kaggle’dan alındı.​
+
+Veri Seti : [PCOS Dataset]​(https://www.kaggle.com/datasets/shreyasvedpathak/pcos-dataset)
+* 541 satır​
+* 45 sütun​
+
+Veri setindeki her satır bir hastayı temsil eder, her sütun ise hastalara ait özelliklerini içerir.
 
 ## İçindekiler
 
@@ -28,9 +35,21 @@ PCOS'lu kişilerin aşağıdakiler de dahil olmak üzere başka sağlık sorunla
 ```
 PKOS ayrıca kaygıya, depresyona ve anksiyete gibi psikolojik sorunlara da neden olabilmektedir. 
 
-PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. Ancak bazı semptomlar yaşam tarzı değişiklikleri, ilaçlar ve doğurganlık tedavileri yoluyla iyileştirilebilir.  
+Aşağıdakilerden en az ikisinin varlığı ile polikistik over sendromu tanısı konur:
+```
+- Yüksek androjen belirtileri veya semptomları (istenmeyen yüz veya vücut kılları, saçların dökülmesi, sivilce, kanda yüksek testosteron seviyesi)
+- Düzensiz regl dönemleri olması veya regl dönemlerinin olmaması
+- Ultrason taramasında polikistik yumurta görüntüsü
+```
+
+Ayrıca ultrason görüntüsü her zaman net olmayabilir ve PKOS'lu bazı kadınların ultrason taraması polikistik yumurtalıkları göstermeyebilir.
 
 > !! PCOS'un nedeni bilinmemektedir ancak aile öyküsü veya tip 2 diyabeti olan kadınlar daha yüksek risk altındadır.
+
+PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. 
+Sağlıklı bir diyet uygulamak ve yeterli egzersiz yapmak, kilo vermeye ve Tip 2 diyabet riskinin azalmasına yardımcı olabilir. 
+Doğum kontrol ilaçları (doğum kontrol hapı) adet döngüsünü düzenlemeye ve semptomları azaltmaya yardımcı olabilir.
+Ancak bazı semptomlar yaşam tarzı değişiklikleri, ilaçlar ve doğurganlık tedavileri yoluyla iyileştirilebilir.  
 
 ![Alt text](analysis-images/pcos_nonpcos.png)
 
@@ -118,20 +137,24 @@ PCOS kronik bir durumdur ve belirli bir tedavisi yoktur. Ancak bazı semptomlar 
 ![Alt text](analysis-images/image-7.png)
 
 ## Sonuçlar
-    - Uygulanan tüm modellerin değerlendirme metriklerinin sonuçları
+* Uygulanan tüm modellerin değerlendirme metriklerinin sonuçları
+
 ![Alt text](analysis-images/comp_table.png)
 
 ![Alt text](analysis-images/comparison.png)
 
+* Random Forest modeli için en iyi parametreler:
 
-    - Random Forest modeli için en iyi parametreler:
 ![Alt text](analysis-images/bestparams.png)
 
-    - Random Forest karmaşıklık matrisi
+* Random Forest karmaşıklık matrisi
+
 ![Alt text](analysis-images/confusionmatrix.png)
 
-    - Random Forest ROC-AUC grafiği
+* Random Forest ROC-AUC grafiği
+
 ![Alt text](analysis-images/roc.png)
 
-    - Random Forest'a göre özelliklerin önem sıralaması 
+* Random Forest'a göre özelliklerin önem sıralaması 
+
 ![Alt text](analysis-images/featureimportance.png)
