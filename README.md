@@ -1,46 +1,28 @@
 # Polikistik Over Sendromu Tahmini (PCOS)
-
-
-
-## İçindekiler
-- [Polikistik Over Sendromu](#Polikistik-Over-Sendromu)
-- [Veri Seti](#Veri-Seti)
-- [Dosyalar](#Dosyalar)
-- [Görselleştirmeler](#Görselleştirmeler)
-- [Sonuçlar](#Sonuçlar)
-
-
-## Polikistik Over Sendromu
-Polikistik over sendromu,  kadınlarda en sık görülen hormonal bozuklukların başında yer almaktadır. PCOS, üreme çağındaki kadınların tahmini olarak %8-13'ünü etkilemektedir. Dünya çapında etkilenen kadınların %70'e kadarı teşhis edilememektedir. Anovülasyonun ve kısırlığın önde gelen nedenidir.
+**Polikistik over sendromu**,  kadınlarda en sık görülen hormonal bozuklukların başında yer almaktadır. PCOS, üreme çağındaki kadınların tahmini olarak %8-13'ünü etkilemektedir. Dünya çapında etkilenen kadınların %70'e kadarı teşhis edilememektedir. Anovülasyonun ve kısırlığın önde gelen nedenidir.
 
 Polikistik over sendromunun belirtileri kişiden kişiye farklılık gösterebilir. Görülen semptomlar zamanla değişebilir.
 
 Görülebilecek olası semptomlar:
-```
-- Düzensiz menstrüal döngü dönemler
-- Kısırlık
-- Sivilce veya yağlı cilt
-- Yüzde veya vücutta aşırı kıllanma
-- Saç dökülmesi veya saç incelmesi
-- Özellikle göbek çevresinde kilo alımı
-```
+- _Düzensiz menstrüal döngü dönemler_
+- _Kısırlık_
+- _Sivilce veya yağlı cilt_
+- _Yüzde veya vücutta aşırı kıllanma_
+- _Saç dökülmesi veya saç incelmesi_
+- _Özellikle göbek çevresinde kilo alımı_
 
 PCOS'lu kişilerin aşağıdakiler de dahil olmak üzere başka sağlık sorunlarına sahip olma olasılığı daha yüksektir:
-```
-- Tip 2 diyabet
-- Hipertansiyon 
-- Yüksek kolesterol
-- Kalp hastalığı
-- Endometrial kanser 
-```
+- _Tip 2 diyabet_
+- _Hipertansiyon_ 
+- _Yüksek kolesterol_
+- _Kalp hastalığı_
+- _Endometrial kanser_ 
 PKOS ayrıca kaygıya, depresyona ve anksiyete gibi psikolojik sorunlara da neden olabilmektedir. 
 
 Aşağıdakilerden en az ikisinin varlığı ile polikistik over sendromu tanısı konur:
-```
-- Yüksek androjen belirtileri veya semptomları (istenmeyen yüz veya vücut kılları, saçların dökülmesi, sivilce, kanda yüksek testosteron seviyesi)
-- Düzensiz regl dönemleri olması veya regl dönemlerinin olmaması
-- Ultrason taramasında polikistik yumurta görüntüsü
-```
+- _Yüksek androjen belirtileri veya semptomları (istenmeyen yüz veya vücut kılları, saçların dökülmesi, sivilce, kanda yüksek testosteron seviyesi)_
+- _Düzensiz regl dönemleri olması veya regl dönemlerinin olmaması_
+- _Ultrason taramasında polikistik yumurta görüntüsü_
 
 Ayrıca ultrason görüntüsü her zaman net olmayabilir ve PKOS'lu bazı kadınların ultrason taraması polikistik yumurtalıkları göstermeyebilir.
 
@@ -110,49 +92,3 @@ Veri setindeki her satır bir hastayı temsil eder, her sütun ise hastalara ait
  42  |Avg. F size (R) (mm) | Ortalama folikül boyutu-Sağ    
  43  |Endometrium (mm) | Rahim kalınlığı         
  44  |Unnamed: 44 | İsimsiz sütun
-
-## Dosyalar
-* [Analizler](analysis.ipynb): Yapılan analizleri ve veri görselleştirmeleri içerir.
-<br/>
-
-> Öncesi-Sonrası karşılaştırması yapabilmek için iki notebook oluşturulmuştur.
-* [Temel modeller](base_models.ipynb): Temel işlemlerden (eksik veri, outlier, veri tipi dönüşümü) sonra temel modelleri ve sonuçlarını içerir.
-* [Ayarlanmış modeller](tuned_models.ipynb): Gereksiz feature çıkarma, scaler işlemleri uygulanan ve hiperparametre ince ayarı yapılan modelleri ve sonuçlarını içerir.
-
-## Görselleştirmeler
-![Alt text](analysis-images/image-1.png)  ![Alt text](analysis-images/image.png) 
-
-![Alt text](analysis-images/image-2.png)
-
-![alt text](analysis-images/image-3.png)
-
-![Alt text](analysis-images/image-6.png)
-
-![Alt text](analysis-images/image-4.png)
-
-![Alt text](analysis-images/image-5.png)
-
-![Alt text](analysis-images/image-7.png)
-
-## Sonuçlar
-* Uygulanan tüm modellerin değerlendirme metriklerinin sonuçları
-
-![Alt text](analysis-images/comp_table.png)
-
-![Alt text](analysis-images/comparison.png)
-
-* Random Forest modeli için en iyi parametreler:
-
-![Alt text](analysis-images/bestparams.png)
-
-* Random Forest karmaşıklık matrisi
-
-![Alt text](analysis-images/confusionmatrix.png)
-
-* Random Forest ROC-AUC grafiği
-
-![Alt text](analysis-images/roc.png)
-
-* Random Forest'a göre özelliklerin önem sıralaması 
-
-![Alt text](analysis-images/featureimportance.png)
